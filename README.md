@@ -23,31 +23,51 @@ Projeto back-end desenvolvido em Python com Flask para encurtar URLs. Como estou
 
 ## 📦 Estrutura do Projeto
 
-encurtador-url/
-├── 📄 app.py               → Backend Flask principal
-├── 📁 urls.db              → Banco de dados SQLite
-└── 📂 templates/           → Pasta de views
-    └── 📄 index.html       → Frontend básico
+![image](https://github.com/user-attachments/assets/3c4645e2-1332-4325-8f93-63fa9c07b550)
 
 
 ## ⚙️ Como Executar
 
 1. **Clone o repositório**:
-```bash
-git clone https://github.com/seu-usuario/encurtador-url.git
-cd encurtador-url
 
-python -m venv venv
+    Abra o Terminal (ou PowerShell) no VS Code (Terminal > Novo Terminal) e execute o seguinte comando para clonar o seu repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/encurtador-url.git
+    cd encurtador-url
+    ```
 
-# Linux/Mac:
-source venv/bin/activate
+2. **Crie e ative o ambiente virtual**:
 
-# Windows:
-.\venv\Scripts\activate
+    No mesmo terminal do VS Code, execute o seguinte comando para criar um ambiente virtual:
+    ```bash
+    python -m venv venv
+    ```
+    Em seguida, ative o ambiente virtual:
+    ```bash
+    .\venv\Scripts\activate
+    ```
+    Você verá que o nome do ambiente virtual ((venv)) aparecerá no início da linha do seu terminal, indicando que ele está ativo.
+   
+4. **Instale as dependências**:
 
-pip install flask
+   Ainda no terminal ativado, instale a biblioteca Flask:
+   ```bash
+    pip install flask
+    ```
 
-http://localhost:5000
+5. **Execute a aplicação Flask**:
+   
+    No mesmo terminal, execute o seguinte comando para iniciar o servidor de desenvolvimento do Flask:
+   ```bash
+    python app.py
+    ```
+    Você deverá ver uma mensagem indicando que o servidor está rodando, geralmente em um endereço como http://127.0.0.1:5000/ ou http://localhost:5000/.
+
+6. **Acesse no seu navegador**:
+ 
+    Abra o seu navegador da web preferido (Chrome, Edge, Firefox, etc.) e acesse o endereço que apareceu no terminal (geralmente http://localhost:5000).
+
+
 
 ## 📌 Aprendizados
 
@@ -61,3 +81,14 @@ http://localhost:5000
 ## 📝 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## 🖼 Imagens
+
+Aqui está uma prévia da estrutura do projeto:
+
+![image](https://github.com/user-attachments/assets/6c12d40e-eec6-4c32-81d3-8f6c116d822e)
+
+![image](https://github.com/user-attachments/assets/72c150a1-4437-4fcd-97f5-657b6bf8d062)
+
+
+
